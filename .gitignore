@@ -1,8 +1,10 @@
 # Prerequisites
 *.d
-*.pro 
 *.user
 *.txt
+.idea
+.vscode
+__pycache__
 
 # Compiled Object files
 *.slo

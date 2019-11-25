@@ -4,7 +4,7 @@ import cv2
 
 road_class = load_model('road_classfier.model.h5')
 while True:
-    frame = cv2.imread('./raw_dataset/1/13.jpg')
+    frame = cv2.imread('./dataset/ordinary_road/15.jpg')
     frame = cv2.resize(frame, (32, 32))
     image = frame.reshape((1, 32, 32, 3))
 
